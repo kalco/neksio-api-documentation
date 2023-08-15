@@ -179,7 +179,7 @@ else:
 
 _Assuming you're using functional components and hooks:_
 
-```React
+```javascript
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -234,7 +234,7 @@ export default App;
 
 Here's an example of using the `java.net` package in Java to integrate with the API endpoints. Please note that this is a basic example and you might want to handle exceptions and errors more thoroughly in a production environment.
 
-```Java
+```java
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
