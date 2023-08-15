@@ -31,23 +31,8 @@ A successful response will include the access token required for further API cal
 
 ```json
 {
-    "name": "SOFTWARE MICROSOFT OFFICE PROFESSIONAL PLUS 2021  SKU-T5D-03280",
-    "description": "<div class=\"feature_UbV5SNP5Eo\"><div class=\"feature_UbV5SNP5Eo\"><div class=\"featureHeader_UbV5SNP5Eo\"><div class=\"text_TAw0W35QK_ comfy_TAw0W35QK_ sizeTitle2_TAw0W35QK_ weightNormal_TAw0W35QK_ primary_i3MsQsqoe0\">Key Benefits</div></div><div><div class=\"\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">One-time purchase for 1 PC or Mac</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Classic 2021 versions of Word, Excel, PowerPoint, and Outlook</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Microsoft support included for first 60 days at no extra cost</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Compatible with Windows 11, Windows 10, and the three most recent versions of macOS</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Works with Microsoft Teams</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"featureHeader_UbV5SNP5Eo\"><div class=\"text_TAw0W35QK_ comfy_TAw0W35QK_ sizeTitle3_TAw0W35QK_ weightNormal_TAw0W35QK_ primary_i3MsQsqoe0\">Office Home &amp; Business 2021</div></div><div><div class=\"js-injected-html text_UbV5SNP5Eo\">The essentials to get it all done. Office Home &amp; Business 2021 is for families and small businesses who want classic Office apps and email. It includes Word, Excel, PowerPoint, and Outlook for Windows 11, Windows 10 and macOS. A one-time purchase installed on 1 PC or Mac for use at home or work.</div></div></div>",
-    "productCode": "01095",
-    "barCode": "889842098570",
-    "category": "СОФТВЕР",
-    "subCategory": null,
-    "b2BPriceWTax": 16000,
-    "b2BPriceWOTax": 13559.32,
-    "retailPriceWTax": 16000,
-    "retailPriceWOTax": 13559.32,
-    "tax": 18,
-    "inStock": true,
-    "manufacturer": null,
-    "guaranteePeriodInDays": 0,
-    "coverImage": "https://g1.store.neksio.mk/images/products/product_10531_0.png",
-    "galleryImages": []
-  },
+  "token": "your-access-token"
+}
 ```
 
 ## Products
@@ -74,13 +59,23 @@ A successful response will include a list of products.
 
 ```json
 [
-  {
-    "id": 1,
-    "name": "Product A"
-  },
-  {
-    "id": 2,
-    "name": "Product B"
+{
+    "name": "SOFTWARE MICROSOFT OFFICE PROFESSIONAL PLUS 2021  SKU-T5D-03280",
+    "description": "<div class=\"feature_UbV5SNP5Eo\"><div class=\"feature_UbV5SNP5Eo\"><div class=\"featureHeader_UbV5SNP5Eo\"><div class=\"text_TAw0W35QK_ comfy_TAw0W35QK_ sizeTitle2_TAw0W35QK_ weightNormal_TAw0W35QK_ primary_i3MsQsqoe0\">Key Benefits</div></div><div><div class=\"\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">One-time purchase for 1 PC or Mac</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Classic 2021 versions of Word, Excel, PowerPoint, and Outlook</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Microsoft support included for first 60 days at no extra cost</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Compatible with Windows 11, Windows 10, and the three most recent versions of macOS</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"descriptionAsTitle_UbV5SNP5Eo\"><div class=\"js-injected-html text_UbV5SNP5Eo\">Works with Microsoft Teams</div></div></div></div><div><div class=\"feature_UbV5SNP5Eo\"><div class=\"featureHeader_UbV5SNP5Eo\"><div class=\"text_TAw0W35QK_ comfy_TAw0W35QK_ sizeTitle3_TAw0W35QK_ weightNormal_TAw0W35QK_ primary_i3MsQsqoe0\">Office Home &amp; Business 2021</div></div><div><div class=\"js-injected-html text_UbV5SNP5Eo\">The essentials to get it all done. Office Home &amp; Business 2021 is for families and small businesses who want classic Office apps and email. It includes Word, Excel, PowerPoint, and Outlook for Windows 11, Windows 10 and macOS. A one-time purchase installed on 1 PC or Mac for use at home or work.</div></div></div>",
+    "productCode": "01095",
+    "barCode": "889842098570",
+    "category": "СОФТВЕР",
+    "subCategory": null,
+    "b2BPriceWTax": 16000,
+    "b2BPriceWOTax": 13559.32,
+    "retailPriceWTax": 16000,
+    "retailPriceWOTax": 13559.32,
+    "tax": 18,
+    "inStock": true,
+    "manufacturer": null,
+    "guaranteePeriodInDays": 0,
+    "coverImage": "https://g1.store.neksio.mk/images/products/product_10531_0.png",
+    "galleryImages": []
   }
 ]
 ```
