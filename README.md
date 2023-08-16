@@ -2,9 +2,9 @@
 
 ---
 
-# Product API Documentation
+# Neksio product API Documentation
 
-Welcome to the Product API documentation. This API allows you to retrieve an authentication token and fetch a list of products.
+Welcome to the Neksio product API documentation. This API allows you to retrieve an authentication token and fetch a list of products.
 
 **Base URL:** `https://g1.store.neksio.mk/api`
 
